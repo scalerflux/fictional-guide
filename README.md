@@ -2,6 +2,13 @@
 
 Physical Design - the process of converting a software description of a chip (RTL code) into an actual manufacturable silicon chip (GDSII layout). This is what happens in real semiconductor companies before sending designs to a foundry like TSMC or Intel for fabrication.
 
+To perform this complex transformation, we'll be using OpenLane, an open-source automation framework that makes this entire process accessible and free.
+
+<img width="2468" height="2088" alt="image" src="https://github.com/user-attachments/assets/f4154fd5-ba17-4a99-942e-11aaa6fbf62c" />
+
+
+
+
 
 The PDK contains:
   * libs.ref: Standard cell libraries (the building blocks - gates, flip-flops)
@@ -91,6 +98,7 @@ This is where the magic happens - converting high-level code to actual hardware.
 
 <img width="1324" height="1059" alt="Screenshot 2025-10-29 at 11 01 57 AM" src="https://github.com/user-attachments/assets/056d1da8-6d5d-4b6e-9bbc-336b14a6f474" />
 
+## flop ratio = no. of d flip-flops/no. of cells = 1597/9406 = 0.16
 
 **Before Synthesis:**
 
